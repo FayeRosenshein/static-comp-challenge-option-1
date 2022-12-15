@@ -1,0 +1,42 @@
+/* GLOBAL */
+
+body {
+  margin: 0;
+  color: #2a2a2a;
+  background-image: url('assests/nctOT23.2.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.search-bar {
+  padding-right: 200px;
+  color: #be2128;
+  display: flex;
+  height: 20vh;
+  margin: 0;
+  background-color: #2f2f51;
+}
+
+.personal-card-container {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.extra-space {
+  height: 15vh;
+}
+
+.grid-item {
+  background-color: #e9eaeb;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  background-repeat: no-repeat;
+}

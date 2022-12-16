@@ -9,14 +9,39 @@ body {
   background-size: cover;
 }
 
+nav {
+  background-color: #be2128;
+  display: flex;
+    justify-content: space-between;
+}
 
 .search-bar {
-  padding-right: 200px;
-  color: #be2128;
+  color: #e9eaeb;
   display: flex;
-  height: 20vh;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 15vh;
   margin: 0;
-  background-color: #2f2f51;
+}
+
+.shares,
+.playlist,
+.personal-videos {
+  margin: 5px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.admin {
+  margin: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 2vh;
+}
+
+.smLogo {
+  height: 8vh;
 }
 
 .personal-card-container {
@@ -28,15 +53,53 @@ body {
   grid-row-gap: 10px;
 }
 
+.personal-card-body {
+  padding: 10px;
+  background-color: #e9eaeb;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .extra-space {
-  height: 15vh;
+  height: 10vh;
+}
+
+.name,
+.date,
+.playlist-name,
+.playlist-title,
+.attachments,
+.attachments-number {
+  margin: 0;
+}
+
+.playlist-link {
+  background-color: rgb(120,121,116, .1);
+  padding: 10px;
+}
+.attachments{
+  padding-top: 15px;
+}
+
+.attachments-number,
+.date {
+  color: #a57342;
 }
 
 .grid-item {
-  background-color: #e9eaeb;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  color: #e9eaeb;
   padding: 20px;
   font-size: 30px;
   text-align: center;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.header {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
